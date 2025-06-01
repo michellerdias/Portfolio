@@ -1,0 +1,118 @@
+{
+  "common": {
+    "language": "Idioma",
+    "nav": {
+      "about": "Sobre",
+      "projects": "Projetos",
+      "contact": "Contato"
+    }
+  },
+  "hero": {
+    "greeting": "Olá, eu sou Michelle",
+    "title": "Desenvolvedora Web Full Stack",
+    "location": "localizada em Paris.",
+    "description": "Desenvolvo aplicações web responsivas e intuitivas, unindo interfaces elegantes com um código robusto e de fácil manutenção.",
+    "cta": {
+      "viewWork": "Ver Meus Projetos",
+      "contact": "Me Contatar"
+    }
+  },
+  "About": {
+    "title": "Sobre Mim",
+    "description": "Sou uma Desenvolvedora Full Stack apaixonada por criar aplicações web bonitas e funcionais. Com experiência em desenvolvimento frontend e backend, dou vida a ideias através de código limpo e interfaces intuitivas.",
+    "imageAlt": "Retrato de Michelle",
+    "stats": {
+      "projects": "Projetos",
+      "experience": "Anos de Experiência",
+      "technologies": "Tecnologias"
+    },
+    "languages": {
+      "title": "Idiomas",
+      "english": "Inglês",
+      "french": "Francês",
+      "spanish": "Espanhol",
+      "portuguese": "Português",
+      "native": "Nativo",
+      "fluent": "Fluente",
+      "intermediate": "Intermediário"
+    },
+    "education": {
+      "title": "Educação",
+      "degree": "Bacharelado em Engenharia Metalúrgica e de Materiais",
+      "degree2": "Diploma de Pós-Graduação em Engenharia de Software",
+      "degree3": "Diploma de Pós-Graduação em Programação Orientada a Objetos Java",
+      "degree4": "Bacharelado em Sistemas de Informação",
+      "university": "Universidade Federal de Minas Gerais",
+      "university2": "Universidade Estácio de Sá"
+    },
+    "tools": {
+      "title": "Ferramentas & Tecnologias",
+      "list": "Java,Figma,React Native,React,Next.js,Node.js,TypeScript,Tailwind CSS,MongoDB,PostgreSQL,Git"
+    }
+  },
+  "Projects": {
+    "title": "Projetos",
+    "description": "Aqui estão alguns dos meus projetos recentes. Cada projeto representa minha abordagem para resolver problemas reais através de design cuidadoso e experiência do usuário.",
+    "imageAlt": "Mockup de {title}",
+    "features": {
+      "title": "Funcionalidades Principais"
+    },
+    "projects": {
+      "project1": {
+        "title": "Plataforma E-Commerce",
+        "description": "Uma plataforma e-commerce moderna focada na experiência do usuário e processo de checkout perfeito. Inclui filtragem de produtos, lista de desejos e gerenciamento de estoque em tempo real.",
+        "tags": "Design UI/UX,E-Commerce,Mobile First",
+        "features": "Design responsivo para todos os dispositivos,Navegação intuitiva de produtos,Processo de checkout otimizado,Gerenciamento de contas de usuário"
+      },
+      "project2": {
+        "title": "Landing Page",
+        "description": "Landing page responsiva para uma escola de idiomas usando React e Tailwind CSS. O projeto tem como objetivo oferecer uma experiência de usuário envolvente com navegação intuitiva e chamadas claras para impulsionar o cadastro de alunos. Otimizado para desempenho e acessibilidade em todos os dispositivos.",
+        "tags": "UI/UX Design,Landing Page,React,Tailwind CSS",
+        "features": "Design responsivo para todos os dispositivos,Navegação intuitiva de produtos,Seções de visão geral de cursos,Integração do formulário de contato"
+      },
+      "project3": {
+        "title": "Website Responsivo",
+        "description": "Um site web elegante e amigável para um estúdio de beleza. O projeto focou em criar um site web moderno e profissional que apresenta os serviços do estúdio.",
+        "tags": "UI/UX Design,Landing Page,React,Tailwind CSS",
+        "features": "Design responsivo para todos os dispositivos,Navegação intuitiva de produtos,Agendamento online,Sessão de serviços"
+      }
+    }
+  },
+  "Contact": {
+    "title": "Entre em Contato",
+    "description": "Tem um projeto em mente? Vamos discutir como podemos trabalhar juntos.",
+    "form": {
+      "name": {
+        "label": "Nome",
+        "placeholder": "Seu nome"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "seu@email.com"
+      },
+      "message": {
+        "label": "Mensagem",
+        "placeholder": "Sua mensagem"
+      },
+      "submit": "Enviar Mensagem",
+      "form": {
+        "success": "Mensagem enviada com sucesso!",
+        "error": "Erro ao enviar mensagem. Por favor, tente novamente.",
+        "sending": "Enviando..."
+      }
+    },
+    "connect": {
+      "title": "Vamos Conectar",
+      "description": "Sinta-se à vontade para entrar em contato através do formulário ou me seguir nas redes sociais. Estou sempre aberta a discutir novos projetos, ideias criativas ou oportunidades de fazer parte de suas visões."
+    },
+    "social": {
+      "title": "Redes Sociais",
+      "github": "Perfil GitHub",
+      "linkedin": "Perfil LinkedIn"
+    },
+    "location": {
+      "title": "Localização",
+      "description": "Localizada em Paris, França.\nDisponível para trabalho remoto em todo o mundo"
+    }
+  }
+}

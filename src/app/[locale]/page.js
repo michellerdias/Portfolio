@@ -6,14 +6,12 @@ import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
-    <>
+    <main>
       <Navbar />
-      <main className="min-h-screen bg-white">
-        <Hero />
-        <About />
-        <Projects />
-        <Contact />
-      </main>
-    </>
+      <Hero />
+      <About />
+      <Projects />
+      <Contact />
+    </main>
   );
 }

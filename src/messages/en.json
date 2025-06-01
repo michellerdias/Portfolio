@@ -1,0 +1,113 @@
+{
+  "common": {
+    "language": "Language"
+  },
+  "hero": {
+    "greeting": "Hi, I'm Michelle",
+    "title": "Full Stack Web Developer",
+    "location": "based in Paris.",
+    "description": "I design and build responsive, user-friendly applications that combine elegant interfaces with robust, maintainable code.",
+    "cta": {
+      "viewWork": "View My Work",
+      "contact": "Contact Me"
+    }
+  },
+  "About": {
+    "title": "About Me",
+    "description": "I'm a Full Stack Developer with a passion for creating beautiful and functional web applications. With expertise in both frontend and backend development, I bring ideas to life through clean code and intuitive user interfaces.",
+    "imageAlt": "Michelle's portrait",
+    "stats": {
+      "projects": "Projects",
+      "experience": "Years Experience",
+      "technologies": "Technologies"
+    },
+    "languages": {
+      "title": "Languages",
+      "english": "English",
+      "portuguese": "Portuguese",
+      "french": "French",
+      "spanish": "Spanish",
+      "native": "Native",
+      "fluent": "Fluent",
+      "intermediate": "Intermediate"
+    },
+    "education": {
+      "title": "Education",
+      "degree": "Bachelor of Metallurgical and Materials Engineering",
+      "degree2": "Postgraduate Diploma in Software Engineering",
+      "degree3": "Postgraduate Diploma in Java-Based Object-Oriented Programming",
+      "degree4": "Bachelor Degree in Information Systems",
+      "university": "Federal University of Minas Gerais",
+      "university2": "University Estácio de Sá"
+    },
+    "tools": {
+      "title": "Tools & Technologies",
+      "list": "Java,Figma,React Native,React,Next.js,Node.js,TypeScript,Tailwind CSS,MongoDB,PostgreSQL,Git"
+    }
+  },
+  "Projects": {
+    "title": "Projects",
+    "description": "Here are some of my recent design projects. Each project represents my approach to solving real-world problems through thoughtful design and user experience.",
+    "imageAlt": "{title} mockup",
+    "features": {
+      "title": "Key Features"
+    },
+    "projects": {
+      "project1": {
+        "title": "E-Commerce Platform",
+        "description": "A modern e-commerce platform with a focus on user experience and seamless checkout process. Features include product filtering, wishlist, and real-time inventory management.",
+        "tags": "UI/UX Design,E-Commerce,Mobile First",
+        "features": "Responsive design for all devices,Intuitive product navigation,Streamlined checkout process,User account management"
+      },
+      "project2": {
+        "title": "Landing Page",
+        "description": "Fully responsive landing page for a language school using React and Tailwind CSS. The projects on delivering an engaging user experience with intuitive navigation and clear calls to action to boost students sign-ups. Optimized for performance and accessibility across all devices.",
+        "tags": "UI/UX Design,Landing Page,React,Tailwind CSS",
+        "features": "Responsive design for all devices,Intuitive product navigation,Course overview sections,Contact form integration"
+      },
+      "project3": {
+        "title": "Responsive Website",
+        "description": "A sleek and user friendly website for a beauty studio. The project focused on creating a modern and professional website that showcases the studio's services and beauticians.",
+        "tags": "UI/UX Design,Landing Page,React,Tailwind CSS",
+        "features": "Responsive design for all devices,Intuitive product navigation,Online appointment booking,Services overview"
+      }
+    }
+  },
+  "Contact": {
+    "title": "Get in Touch",
+    "description": "Have a project in mind? Let's discuss how we can work together.",
+    "form": {
+      "name": {
+        "label": "Name",
+        "placeholder": "Your name"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "your@email.com"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Your message"
+      },
+      "submit": "Send Message",
+      "form": {
+        "success": "Message sent successfully!",
+        "error": "Failed to send message. Please try again.",
+        "sending": "Sending..."
+      }
+    },
+    "connect": {
+      "title": "Let's Connect",
+      "description": "Feel free to reach out through the form or connect with me on social media. I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions."
+    },
+    "social": {
+      "title": "Connect on Social",
+      "github": "GitHub Profile",
+      "linkedin": "LinkedIn Profile"
+    },
+    "location": {
+      "title": "Location",
+      "description": "Based in Paris, France\nAvailable for remote work worldwide"
+    }
+  }
+}
