@@ -1,11 +1,12 @@
 "use client";
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import { useTranslations } from "next-intl";
 import emailjs from "@emailjs/browser";
 
 export default function Contact() {
   const t = useTranslations("Contact");
   const formRef = useRef();
+  const [isEmailConfigured, setIsEmailConfigured] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -17,25 +18,30 @@ export default function Contact() {
     message: "",
   });
 
+  useEffect(() => {
+    // Check if EmailJS is configured
+    const isConfigured =
+      process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID &&
+      process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID &&
+      process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY;
+
+    setIsEmailConfigured(isConfigured);
+  }, []);
+
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setIsSubmitting(true);
-    setSubmitStatus({ type: "", message: "" });
 
-    // Check if EmailJS is configured
-    if (
-      !process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID ||
-      !process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID ||
-      !process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
-    ) {
+    if (!isEmailConfigured) {
       setSubmitStatus({
         type: "error",
         message:
           "Email service is not configured. Please contact the administrator.",
       });
-      setIsSubmitting(false);
       return;
     }
+
+    setIsSubmitting(true);
+    setSubmitStatus({ type: "", message: "" });
 
     try {
       const result = await emailjs.sendForm(
@@ -159,7 +165,7 @@ export default function Contact() {
                 <button
                   type="submit"
                   className="btn btn-primary w-full flex items-center justify-center"
-                  disabled={isSubmitting}
+                  disabled={isSubmitting || !isEmailConfigured}
                 >
                   {isSubmitting ? (
                     <>
