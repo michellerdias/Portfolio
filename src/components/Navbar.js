@@ -152,7 +152,7 @@ export default function Navbar() {
 
             {/* Resume Button */}
             <a
-              href="/resume.pdf"
+              href="/documents/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-primary text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors"
@@ -286,7 +286,7 @@ export default function Navbar() {
             </div>
 
             <a
-              href="/resume.pdf"
+              href="/documents/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-6 bg-primary text-white px-8 py-3 rounded-md hover:bg-blue-700 text-lg font-medium text-center transition-colors"
