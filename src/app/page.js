@@ -1,19 +1,6 @@
-import Navbar from "@/components/Navbar";
-import Hero from "@/components/Hero";
-import About from "@/components/About";
-import Projects from "@/components/Projects";
-import Contact from "@/components/Contact";
+import { redirect } from "next/navigation";
+import { defaultLocale } from "@/i18n/config";
 
-export default function Home() {
-  return (
-    <>
-      <Navbar />
-      <main className="min-h-screen bg-white">
-        <Hero />
-        <About />
-        <Projects />
-        <Contact />
-      </main>
-    </>
-  );
+export default function RootPage() {
+  redirect(`/${defaultLocale}`);
 }
