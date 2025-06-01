@@ -47,7 +47,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link href="/" className="text-text-primary font-bold text-xl">
-            M.
+            MD.
           </Link>
 
           {/* Desktop Navigation Links */}

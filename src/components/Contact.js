@@ -216,7 +216,7 @@ export default function Contact() {
                   </h3>
                   <div className="flex gap-4">
                     <a
-                      href="https://github.com/yourusername"
+                      href="https://github.com/michellerdias"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-text-secondary hover:text-primary transition-colors duration-200"
@@ -236,7 +236,7 @@ export default function Contact() {
                       </svg>
                     </a>
                     <a
-                      href="https://linkedin.com/in/yourusername"
+                      href="https://www.linkedin.com/in/michellerenatadias/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-text-secondary hover:text-primary transition-colors duration-200"

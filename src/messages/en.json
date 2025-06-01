@@ -77,6 +77,9 @@
     "title": "Get in Touch",
     "description": "Have a project in mind? Let's discuss how we can work together.",
     "form": {
+      "success": "Message sent successfully!",
+      "error": "Failed to send message. Please try again.",
+      "sending": "Sending...",
       "name": {
         "label": "Name",
         "placeholder": "Your name"
@@ -89,12 +92,7 @@
         "label": "Message",
         "placeholder": "Your message"
       },
-      "submit": "Send Message",
-      "form": {
-        "success": "Message sent successfully!",
-        "error": "Failed to send message. Please try again.",
-        "sending": "Sending..."
-      }
+      "submit": "Send Message"
     },
     "connect": {
       "title": "Let's Connect",

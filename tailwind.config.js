@@ -17,6 +17,7 @@ module.exports = {
         border: "var(--border)",
         surface: "var(--surface)",
         "surface-hover": "var(--surface-hover)",
+        "modal-background": "var(--modal-background)",
       },
     },
   },

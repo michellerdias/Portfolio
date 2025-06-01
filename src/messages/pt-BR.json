@@ -82,6 +82,9 @@
     "title": "Entre em Contato",
     "description": "Tem um projeto em mente? Vamos discutir como podemos trabalhar juntos.",
     "form": {
+      "success": "Mensagem enviada com sucesso!",
+      "error": "Erro ao enviar mensagem. Por favor, tente novamente.",
+      "sending": "Enviando...",
       "name": {
         "label": "Nome",
         "placeholder": "Seu nome"
@@ -94,12 +97,7 @@
         "label": "Mensagem",
         "placeholder": "Sua mensagem"
       },
-      "submit": "Enviar Mensagem",
-      "form": {
-        "success": "Mensagem enviada com sucesso!",
-        "error": "Erro ao enviar mensagem. Por favor, tente novamente.",
-        "sending": "Enviando..."
-      }
+      "submit": "Enviar Mensagem"
     },
     "connect": {
       "title": "Vamos Conectar",

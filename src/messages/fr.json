@@ -77,6 +77,9 @@
     "title": "Contactez-moi",
     "description": "Vous avez un projet en tête ? Discutons de la façon dont nous pouvons travailler ensemble.",
     "form": {
+      "success": "Message envoyé avec succès !",
+      "error": "Erreur lors de l'envoi du message. Veuillez réessayer.",
+      "sending": "Envoi...",
       "name": {
         "label": "Nom",
         "placeholder": "Votre nom"
@@ -89,12 +92,7 @@
         "label": "Message",
         "placeholder": "Votre message"
       },
-      "submit": "Envoyer le Message",
-      "form": {
-        "success": "Message envoyé avec succès !",
-        "error": "Erreur lors de l'envoi du message. Veuillez réessayer.",
-        "sending": "Envoi..."
-      }
+      "submit": "Envoyer le Message"
     },
     "connect": {
       "title": "Connectons-nous",

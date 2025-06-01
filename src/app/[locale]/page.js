@@ -4,7 +4,9 @@ import About from "@/components/About";
 import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
 
-export const dynamic = "force-dynamic";
+export const generateStaticParams = async () => {
+  return [{ locale: "en" }, { locale: "fr" }, { locale: "pt-BR" }];
+};
 
 export default function Home() {
   return (

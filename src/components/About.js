@@ -23,19 +23,27 @@ export default function About() {
           <div className="space-y-8 order-2 md:order-1">
             {/* Stats */}
             <div className="grid grid-cols-3 gap-4">
-              <div className="card p-4 text-center">
-                <div className="text-2xl font-bold text-primary">3+</div>
-                <div className="text-text-secondary">{t("stats.projects")}</div>
+              <div className="card p-3 sm:p-4 text-center">
+                <div className="text-xl sm:text-2xl font-bold text-primary">
+                  3+
+                </div>
+                <div className="text-xs sm:text-sm text-text-secondary">
+                  {t("stats.projects")}
+                </div>
               </div>
-              <div className="card p-4 text-center">
-                <div className="text-2xl font-bold text-primary">2+</div>
-                <div className="text-text-secondary">
+              <div className="card p-3 sm:p-4 text-center">
+                <div className="text-xl sm:text-2xl font-bold text-primary">
+                  2+
+                </div>
+                <div className="text-xs sm:text-sm text-text-secondary">
                   {t("stats.experience")}
                 </div>
               </div>
-              <div className="card p-4 text-center">
-                <div className="text-2xl font-bold text-primary">10+</div>
-                <div className="text-text-secondary">
+              <div className="card p-3 sm:p-4 text-center">
+                <div className="text-xl sm:text-2xl font-bold text-primary">
+                  10+
+                </div>
+                <div className="text-xs sm:text-sm text-text-secondary">
                   {t("stats.technologies")}
                 </div>
               </div>
@@ -145,7 +153,7 @@ export default function About() {
           <div className="relative w-full order-1 md:order-2">
             <div className="relative w-full aspect-square max-w-sm mx-auto">
               <Image
-                src="/profile-picture.jpg"
+                src="/about-picture.jpg"
                 alt={t("imageAlt")}
                 fill
                 className="rounded-2xl object-cover"
